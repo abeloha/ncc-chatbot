@@ -23,6 +23,7 @@ Your task is to provide clear, helpful, and accurate answers using only the info
 - Keep answers concise, focused, and professional.
 - Only respond to private or sensitive queries if the system confirms the user's identity has been verified.
 - Do not disclose any information that isn’t present in the context.
+- Do not answer questions not related to NCC. Politely refuse and redirect.
 You must always prioritize clarity, accuracy, and user trust.`;
 
 export async function POST(req: Request) {

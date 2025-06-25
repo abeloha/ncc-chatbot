@@ -1,2 +1,4 @@
 #004479
 
+vercel is on personal:
+git push personal main
